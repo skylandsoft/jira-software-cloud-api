@@ -4,12 +4,12 @@
 
   <groupId>com.skylandsoft</groupId>
   <artifactId>jira-software-cloud-api</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
   <name>jira-software-cloud-api</name>
 
   <url>https://github.com/skylandsoft/jira-software-cloud-api</url>
-  <description>Java Cloud API v3 - Java SDK</description>
+  <description>Java Software Cloud API - Java SDK</description>
   <scm>
     <connection>scm:git:git@github.com:skylandsoft/jira-software-cloud-api.git</connection>
     <developerConnection>scm:git:git@github.com:skylandsoft/jira-software-cloud-api.git</developerConnection>
@@ -104,9 +104,9 @@
               <library>jersey3</library>
 
               <output>${generated-source-output-folder}</output>
-              <apiPackage>${project.groupId}.jiracloud.v3.api</apiPackage>
-              <modelPackage>${project.groupId}.jiracloud.v3.model</modelPackage>
-              <invokerPackage>${project.groupId}.jiracloud.v3</invokerPackage>
+              <apiPackage>${project.groupId}.jirasoftwarecloud.api</apiPackage>
+              <modelPackage>${project.groupId}.jirasoftwarecloud.model</modelPackage>
+              <invokerPackage>${project.groupId}.jirasoftwarecloud</invokerPackage>
               <skipValidateSpec>true</skipValidateSpec>
               <generateAliasAsModel>true</generateAliasAsModel>
               <generateApiTests>false</generateApiTests>
@@ -136,7 +136,7 @@
         </executions>
         <configuration>
           <includes>
-            <include>${generated-source-output-folder}/src/main/java/com/skylandsoft/jiracloud/v3/model/FieldUpdateOperation.java</include>
+            <include>${generated-source-output-folder}/src/main/java/com/skylandsoft/jirasoftwarecloud/model/FieldUpdateOperation.java</include>
           </includes>
           <replacements>
             <replacement>
