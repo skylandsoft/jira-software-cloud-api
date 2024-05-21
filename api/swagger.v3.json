@@ -3325,6 +3325,33 @@
         },
         "type": "object"
       },
+      "PageBeanBoardSprint": {
+        "additionalProperties": false,
+        "properties": {
+          "isLast": {
+            "type": "boolean"
+          },
+          "maxResults": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "startAt": {
+            "format": "int64",
+            "type": "integer"
+          },
+          "total": {
+            "format": "int64",
+            "type": "integer"
+          },
+          "values": {
+            "items": {
+              "$ref": "#/components/schemas/SprintBean"
+            },
+            "type": "array"
+          }
+        },
+        "type": "object"
+      },
       "PageBeanBoardFilterBean": {
         "additionalProperties": false,
         "properties": {
@@ -7698,31 +7725,7 @@
               "application/json": {
                 "example": "{\"isLast\":false,\"maxResults\":2,\"startAt\":1,\"total\":5,\"values\":[{\"id\":37,\"self\":\"https://your-domain.atlassian.net/rest/agile/1.0/sprint/23\",\"state\":\"closed\",\"name\":\"sprint 1\",\"startDate\":\"2015-04-11T15:22:00.000+10:00\",\"endDate\":\"2015-04-20T01:22:00.000+10:00\",\"completeDate\":\"2015-04-20T11:04:00.000+10:00\",\"originBoardId\":5,\"goal\":\"sprint 1 goal\"},{\"id\":72,\"self\":\"https://your-domain.atlassian.net/rest/agile/1.0/sprint/73\",\"state\":\"future\",\"name\":\"sprint 2\",\"goal\":\"sprint 2 goal\"}]}",
                 "schema": {
-                  "additionalProperties": false,
-                  "properties": {
-                    "isLast": {
-                      "type": "boolean"
-                    },
-                    "maxResults": {
-                      "format": "int32",
-                      "type": "integer"
-                    },
-                    "startAt": {
-                      "format": "int64",
-                      "type": "integer"
-                    },
-                    "total": {
-                      "format": "int64",
-                      "type": "integer"
-                    },
-                    "values": {
-                      "items": {
-                        "$ref": "#/components/schemas/SprintBean"
-                      },
-                      "type": "array"
-                    }
-                  },
-                  "type": "object"
+                  "$ref": "#/components/schemas/PageBeanBoardSprint"
                 }
               }
             },
