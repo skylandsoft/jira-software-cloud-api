@@ -4896,6 +4896,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:board-scope:jira-software"
             ]
@@ -4993,6 +4996,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:board-scope:jira-software"
@@ -5158,6 +5164,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope:jira-software",
@@ -5426,6 +5435,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:board-scope:jira-software"
             ]
@@ -5537,6 +5549,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software"
             ]
@@ -5583,6 +5598,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:board-scope:jira-software"
@@ -5812,6 +5830,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope:jira-software",
               "read:issue-details:jira"
@@ -5927,6 +5948,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope:jira-software",
@@ -6118,6 +6142,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software",
               "read:project:jira"
@@ -6202,6 +6229,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:epic:jira-software"
@@ -6314,6 +6344,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:epic:jira-software",
@@ -6438,6 +6471,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:epic:jira-software",
@@ -6588,6 +6624,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope.admin:jira-software"
@@ -6758,6 +6797,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:board-scope.admin:jira-software"
             ]
@@ -6872,6 +6914,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope:jira-software",
@@ -6999,6 +7044,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:board-scope:jira-software"
             ]
@@ -7075,6 +7123,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software",
               "read:project:jira"
@@ -7129,6 +7180,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software",
               "read:project:jira"
@@ -7181,6 +7235,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope.admin:jira-software"
@@ -7241,6 +7298,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "delete:board-scope.admin:jira-software"
             ]
@@ -7300,6 +7360,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope.admin:jira-software"
@@ -7379,6 +7442,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:board-scope.admin:jira-software"
@@ -7508,6 +7574,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software",
               "read:jql:jira"
@@ -7600,6 +7669,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:board-scope.admin:jira-software",
               "read:jql:jira"
@@ -7657,6 +7729,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope:jira-software"
@@ -7745,6 +7820,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:sprint:jira-software"
@@ -7868,6 +7946,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:sprint:jira-software",
               "read:issue-details:jira",
@@ -7953,6 +8034,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:board-scope:jira-software"
@@ -8053,6 +8137,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:epic:jira-software",
               "read:issue-details:jira",
@@ -8121,6 +8208,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:epic:jira-software"
             ]
@@ -8174,6 +8264,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:epic:jira-software"
@@ -8284,6 +8377,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:epic:jira-software"
@@ -8396,6 +8492,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:epic:jira-software",
               "read:issue-details:jira",
@@ -8474,6 +8573,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:epic:jira-software"
@@ -8554,6 +8656,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:epic:jira-software"
@@ -8640,6 +8745,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:issue:jira-software"
             ]
@@ -8725,6 +8833,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:issue:jira-software"
             ]
@@ -8790,6 +8901,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:issue:jira-software",
@@ -8876,6 +8990,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:issue:jira-software",
               "read:issue-details:jira"
@@ -8959,6 +9076,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:sprint:jira-software"
             ]
@@ -9008,6 +9128,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "delete:sprint:jira-software"
@@ -9061,6 +9184,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:sprint:jira-software"
@@ -9166,6 +9292,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:sprint:jira-software"
@@ -9277,6 +9406,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:sprint:jira-software"
             ]
@@ -9386,6 +9518,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "read:sprint:jira-software",
               "read:issue-details:jira",
@@ -9477,6 +9612,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:sprint:jira-software"
             ]
@@ -9533,6 +9671,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:sprint:jira-software"
@@ -9595,6 +9736,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "delete:sprint:jira-software"
@@ -9660,6 +9804,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "read:sprint:jira-software"
@@ -9743,6 +9890,9 @@
         },
         "security": [
           {
+            "basicAuth": []
+          },
+          {
             "OAuth2": [
               "write:sprint:jira-software"
             ]
@@ -9813,6 +9963,9 @@
           }
         },
         "security": [
+          {
+            "basicAuth": []
+          },
           {
             "OAuth2": [
               "write:sprint:jira-software"
